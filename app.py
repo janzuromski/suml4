@@ -1,4 +1,3 @@
-!pip install fastbook
 import fastbook
 from fastbook import *
 from fastai.vision.widgets import *
