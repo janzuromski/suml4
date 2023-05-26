@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 from datetime import datetime
+from fastbook import *
 startTime = datetime.now()
 # import znanych nam bibliotek
 
@@ -11,7 +12,7 @@ temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
 
 filename = "model.pkl"
-model = pickle.load(open(filename,'rb'))
+model = load_learner(filename)
 # otwieramy wcześniej wytrenowany model
 
 
