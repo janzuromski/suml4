@@ -1,7 +1,10 @@
+!pip install fastbook
+import fastbook
+from fastbook import *
+from fastai.vision.widgets import *
 import streamlit as st
 import pickle
 from datetime import datetime
-from fastbook import *
 startTime = datetime.now()
 # import znanych nam bibliotek
 
